@@ -27,7 +27,6 @@ module.exports.run = async (bot, message, args) => {
   .setFooter(`${config.footer}`);
 
   message.channel.send(embed)
-
 }
 
 
